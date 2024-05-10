@@ -40,3 +40,6 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 ## A seguir algumas imagens do projeto em execução:
 ![](https://github.com/fernandopassoss/ListaLivros/blob/febcc7e751f9bde513123044867da2e70fd062bb/book/prints/img1.png)
+![](https://github.com/fernandopassoss/ListaLivros/blob/4c97052a1f3187b364f78fc3775d4c6900c3626d/book/prints/img2.png)
+![](https://github.com/fernandopassoss/ListaLivros/blob/4c97052a1f3187b364f78fc3775d4c6900c3626d/book/prints/img3.png)
+![](https://github.com/fernandopassoss/ListaLivros/blob/4c97052a1f3187b364f78fc3775d4c6900c3626d/book/prints/img4.png)
