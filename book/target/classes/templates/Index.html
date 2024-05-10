@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        @import url('https://unpkg.com/css.gg@2.0.0/icons/css/pen.css');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://unpkg.com/css.gg@2.0.0/icons/css/trash.css');
+        body{
+            background-color: #2f2f2f;
+            padding: 10%;
+        }
+        #titulo{
+            color: white;
+            padding-bottom: 3%;
+            font-family: "Oswald", sans-serif;
+            font-size: 60px;
+        }
+        button {
+            padding: 10%;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-container a {
+            margin-right: 15px;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo">
+        Lista de livros
+    </h1>
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col">Identificador</th>
+            <th scope="col">Nome do Livro</th>
+            <th scope="col">Autor</th>
+            <th scope="col">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="book : ${bookList}">
+            <th scope="row" th:text="${book.id}"></th>
+            <td th:text="${book.name}"> </td>
+            <td th:text="${book.author.name}"></td>
+            <td>
+                <div class="icon-container">
+                    <a th:href="@{/edit/{id}(id=${book.id})}">
+                        <i class="gg-pen"></i>
+                    </a>
+                    <a th:href="@{/delete/{id}(id=${book.id})}">
+                        <i class="gg-trash"></i>
+                    </a>
+                </div>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/book/form/add}">
+        <button class="btn btn-light">Formulário Livro</button>
+    </a>
+</body>
+</html>
