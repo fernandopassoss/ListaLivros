@@ -39,4 +39,4 @@ O projeto segue uma estrutura simples, com os seguintes componentes principais:
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## A seguir algumas imagens do projeto em execução:
-![a](https://github.com/fernandopassoss/ListaLivros/tree/main)
+![](https://github.com/fernandopassoss/ListaLivros/blob/febcc7e751f9bde513123044867da2e70fd062bb/book/prints/img1.png)
