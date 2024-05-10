@@ -38,6 +38,4 @@ O projeto segue uma estrutura simples, com os seguintes componentes principais:
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
